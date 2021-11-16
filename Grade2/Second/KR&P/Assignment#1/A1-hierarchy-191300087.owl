@@ -1,0 +1,427 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#"
+     xml:base="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#Sushi_ingredients -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#Sushi_ingredients"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#arënkha_caviar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#arënkha_caviar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#condiment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#aubergine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#aubergine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#vegetables"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#avocado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#avocado">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#fruits"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#bean_products -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#bean_products">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#Sushi_ingredients"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#beef -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#beef">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#meat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#carrot -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#carrot">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#vegetables"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#chicken -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#chicken">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#meat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#chilli_oil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#chilli_oil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#condiment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#chive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#chive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#vegetables"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#condiment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#condiment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#Sushi_ingredients"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#cream_cheese -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#cream_cheese">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#dairy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#crumb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#crumb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#grain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#cucumber -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#cucumber">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#vegetables"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#dairy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#dairy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#Sushi_ingredients"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#fruits -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#fruits">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#Sushi_ingredients"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#garlic_mayo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#garlic_mayo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#condiment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#grain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#grain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#Sushi_ingredients"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#hoisin_sauce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#hoisin_sauce">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#condiment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#inari -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#inari">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#bean_products"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#lettuce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#lettuce">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#vegetables"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#masago -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#masago">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#seafood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#mayo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#mayo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#condiment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#meat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#meat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#Sushi_ingredients"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#nori -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#nori">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#seafood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#onion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#onion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#vegetables"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#panko -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#panko">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#grain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#parmesan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#parmesan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#dairy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#ponzu_sauce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#ponzu_sauce">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#condiment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#prawn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#prawn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#seafood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#red_pepper_powder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#red_pepper_powder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#condiment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#rice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#rice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#grain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#roast_duck -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#roast_duck">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#meat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#salmon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#salmon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#seafood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#salsa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#salsa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#condiment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#seafood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#seafood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#Sushi_ingredients"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#seasame_seeds -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#seasame_seeds">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#grain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#shichimi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#shichimi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#condiment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#shiso -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#shiso">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#vegetables"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#sriracha_sauce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#sriracha_sauce">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#condiment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#surimi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#surimi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#seafood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#teriyaki -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#teriyaki">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#condiment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#tofu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#tofu">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#bean_products"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#tonkatsu_sauce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#tonkatsu_sauce">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#condiment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#tuna -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#tuna">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#seafood"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#vegan_mayo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#vegan_mayo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#condiment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#vegetables -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#vegetables">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#Sushi_ingredients"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#yellowfin_tuna -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#yellowfin_tuna">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#seafood"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#fruits"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#seafood"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hp/ontologies/2021/3/untitled-ontology-8#vegetables"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,2 @@
+1. 按照Assignment#1中要求，回答问题。可手写或者使用Word、Latex等编辑工具写，要求最终转换成PDF文件后，以zip格式上传。
+2. Assignment#1文件为作业题目、YO!-Core-Main-Menu文件为Sushi菜单、其它两份文件为辅助材料，是关于Sushi的进一步解释。
